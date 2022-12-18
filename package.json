@@ -6,8 +6,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-icons": "^1.10.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-on-screen": "^2.1.1",
+    "react-router-dom": "^6.5.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -15,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --check src/**/*.{js,css}",
+    "prettier:fix": "prettier --write src/**/*.{js,css}"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +44,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1"
   }
 }
