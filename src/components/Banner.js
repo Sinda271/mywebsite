@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Web Developer', 'Web Designer', 'Team Leader'];
+  const toRotate = ['a Unity Game Developer', 'an AI Developer', 'a Backend Developer'];
   const images = [vr, bot, dev];
   const [currentImage, setCurrentImage] = useState(null);
   const period = 2000;
@@ -72,23 +72,23 @@ export const Banner = () => {
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Odina`}{' '}
+                    {`Hi! I'm Sinda `}{' '}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "Team Leder" ]'
+                      data-rotate='[ [" a Unity Game Developer", " an AI Developer", "a Backend Developer"] ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    My fullname is Saidnazarova Odinanabonu. I'm 15 years old. I study 249-school in
-                    10th grade.I am a front-end web developer. I can make the website more, more
-                    interactive with web animation I study at Web Brain Academy group G5. When I
-                    first came to web brain, I had no knowledge of programming. But now with the
-                    help of strong aspirations and teachers, my level of knowledge has greatly
-                    increased and I can freely create web site views that are used in our daily
-                    lives
+                    My fullname is Sinda Besrour. I'm 25 years old. I study Computer Science at
+                    Moncton University, in Canada. Before that, I worked as a Unity, AI and Backend developer 
+                    at Talan Tunisia. I can make Desktop, mobile and web games with Unity, with a 
+                    multitude of features, namely, multiplyer, text/video/audio chat, character customization,
+                    teleportation, etc. I can also train AI models in the computer vision domain, while using 
+                    adapted image processing and feature extraction techniques for the use case. I can also develop REST API 
+                    based backend with NodeJS, Flask, and FastAPI.
                   </p>
                   <button onClick={() => console.log('connect')}>
                     Let’s Connect <ArrowRightCircle size={25} />
